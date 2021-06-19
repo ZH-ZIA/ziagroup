@@ -1,0 +1,917 @@
+body {}
+
+* {
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Raleway', sans-serif;
+    scroll-behavior: smooth;
+}
+
+a,
+a:hover {
+    text-decoration: none;
+}
+
+img {
+    vertical-align: middle;
+    border: none;
+}
+
+ul,
+ol {
+    list-style: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ul,
+li,
+p,
+div {
+    margin: 0px;
+    padding: 0px;
+}
+
+/*Common CSS End*/
+/*Banner Area Inner*/
+.bannerImg {
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(#000000d1, #000000d1), url(../img/pc.JPG);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+/*Logo Inner*/
+.navBar_logo {
+    position: absolute;
+    top: 0px;
+}
+
+.navBar_logo .logo {
+    color: white;
+    padding: 8px;
+    margin-left: 55px;
+    border-radius: 0px;
+    font-size: 25px;
+    font-weight: bold;
+    float: left;
+    margin-top: 5px;
+    font-family: 'Poppins';
+}
+
+.logo:hover {
+    color: #ff0047;
+}
+
+
+/*Logo End*/
+/*Nav area Inner*/
+.nav {
+    float: left;
+}
+
+.nav nav {
+    margin-top: 10px;
+    margin-left: 450px;
+
+}
+
+.nav nav ul {
+    list-style: none;
+}
+
+.nav nav ul li {
+    float: left;
+    position: relative;
+}
+
+.nav nav ul li::after {
+    content: "";
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    width: 0%;
+    height: 2px;
+    background-color: white;
+}
+
+.nav nav ul li:hover::after {
+    display: block;
+    width: 100%;
+    transition: .8s;
+    transition-delay: .2s;
+}
+
+.nav nav ul li a {
+    text-decoration: none;
+    padding: 10px;
+    color: white;
+    display: inline-block
+}
+
+.nav nav ul li:last-child {
+    border: 1px solid white;
+    border-radius: 110px
+}
+
+.nav nav ul li:last-child::after {
+    content: "";
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    width: 0%;
+    height: 2px;
+    background-color: white;
+    border-radius: 110px;
+}
+
+.nav nav ul li:last-child:hover {
+    background-color: #ff0047;
+}
+
+/*Nav Area end*/
+/*Banner Middel Contant Inner*/
+.bannerContent {
+    position: absolute;
+    top: 290px;
+    text-align: center;
+    width: 70%;
+    align-content: center;
+    left: 200px;
+    left: 200px;
+    color: aliceblue;
+}
+
+.bannerContent h5 {
+    padding: 10px 0px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 150;
+    font-size: 19px
+}
+
+.bannerContent h3 {
+    font-family: 'Poppins', sans-serif;
+    text-transform: uppercase;
+    font-size: 50px
+}
+
+/*Banner Middel Contant End*/
+/*Banner Area End*/
+/*About Area part CSS Inner*/
+.About {
+    width: 100%;
+    height: 280px;
+    margin-top: 25px
+}
+
+/*About Area Image Css Inner*/
+.About .aboutImag {
+    width: 25%;
+    margin-left: 70px;
+    height: 95%;
+    float: left
+}
+
+.About .aboutImag img {
+    width: 100%;
+    height: 100%;
+    margin-top: 15px;
+    border-radius: 2px
+}
+
+/*About Area Image Css End*/
+/*About Area Contant Css Inner*/
+.About .aboutContant {
+    float: left;
+    width: 65%;
+    margin-left: 45px;
+    padding: 0px;
+    margin-top: 15px;
+}
+
+.About .aboutContant h3 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 25px;
+    color: #3a3939;
+    padding-top: 0px;
+}
+
+.About .aboutContant h5 {
+    font-family: 'Poppins', sans-serif;
+    padding: 5px 0px
+}
+
+.About .aboutContant h5 span {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    color: #ff0047;
+
+}
+
+.About .aboutContant p {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 200;
+    font-size: 15px;
+    line-height: 20px;
+    padding-right: 40px
+}
+
+.aboutInfo {
+    float: left;
+    text-align: center;
+    margin-left: 120px;
+    border-right: 1px solid #9e9e9e;
+    padding: 0px 20px
+}
+
+.aboutInfo h5 {
+    font-weight: 500;
+    font-size: 18px;
+    color: #797979;
+}
+
+.aboutContant .aboutInfo p {
+    text-align: center;
+    padding-right: 0px;
+}
+
+/*About Area Contant Css End*/
+/*About Area part CSS end*/
+/*Service Part Inner*/
+.serviceInner {
+    width: 100%;
+    margin: auto;
+    margin-top: 55px;
+}
+
+.serviceInfo {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+}
+
+.serviceInfo h3 {
+    padding: 20px 0px 10px 0px;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: 'Poppins', sans-serif;
+    color: #ff0047;
+}
+
+.serviceBottanBorder {
+    width: 80px;
+    margin: auto;
+    height: 2px;
+    background-color: #ff0047;
+    margin-bottom: 10px;
+}
+
+.serviceInner,
+.serviceInfo p {
+    font-family: 'Poppins', sans-serif;
+    ;
+    font-weight: 300;
+    padding: 5px 0px;
+}
+
+.serviceBox {
+    float: left;
+    width: 30%;
+    margin-left: 25px;
+    padding: 20px 5px;
+    background-color: azure;
+    border-radius: 5px;
+}
+
+.serviceBox1 {
+    float: left;
+    width: 30%;
+    margin-left: 25px;
+    padding: 20px 5px;
+    background-color: azure;
+    border-radius: 5px;
+}
+
+.serviceBox2 {
+    float: left;
+    width: 30%;
+    margin-left: 25px;
+    padding: 20px 5px;
+    background-color: azure;
+    border-radius: 5px;
+}
+
+.serviceBox i {
+    color: #ff0047;
+    font-size: 100px;
+    padding: 15px 0px
+}
+
+.serviceBox1 i {
+    color: #ff0047;
+    font-size: 100px;
+    padding: 15px 0px
+}
+
+.serviceBox2 i {
+    color: #ff0047;
+    font-size: 100px;
+    padding: 8px 0px
+}
+
+.serviceBox h4 {
+    padding: 5px 0px;
+    font-size: 20px;
+    color: #2d2d2d;
+}
+
+.serviceBox1 h4 {
+    padding: 5px 0px;
+    font-size: 20px;
+    color: #2d2d2d;
+}
+
+.serviceBox2 h4 {
+    padding: 5px 0px;
+    font-size: 20px;
+    color: #2d2d2d;
+}
+
+.serviceBox p {
+    padding: 5px 0px;
+    color: #2d2d2d;
+    font-size: 17px
+}
+
+.serviceBox1 p {
+    padding: 5px 0px;
+    color: #2d2d2d;
+    font-size: 17px
+}
+
+.serviceBox2 p {
+    padding: 5px 0px;
+    color: #2d2d2d;
+    font-size: 17px
+}
+
+.serviceBox a {
+    padding: 5px 0px;
+    color: #2d2d2d;
+}
+
+.serviceBox1 a {
+    padding: 5px 0px;
+    color: #2d2d2d;
+}
+
+.serviceBox2 a {
+    padding: 5px 0px;
+    color: #2d2d2d;
+}
+
+/*Service Part End*/
+/*Marketplache Part Inner*/
+.marketplache {
+    width: 100%;
+    background-color: #ff0047;
+    text-align: center;
+    float: left;
+    margin-top: 25px;
+    padding: 35px 0px;
+}
+
+.marketplache p {
+    color: white;
+    font-size: 15px;
+    padding: 10px 0px;
+}
+
+.marketplache h3 {
+    color: white;
+    font-size: 40px;
+    padding: 0px 0px;
+}
+
+.marketplache button {
+    padding: 8px 15px;
+    margin-top: 20px;
+    font-size: 17px;
+    color: #ff0047;
+    border-radius: 100px;
+    border: none;
+}
+
+.marketplache button:hover {
+    color: black;
+}
+
+/*Marketplache Part end*/
+/*My Skill Inner*/
+.skill {
+    clear: both;
+    margin: 20px 0px;
+    padding-top: 35px;
+    text-align: center;
+}
+
+.skill .skillImg {
+    width: 30%;
+    height: 250px;
+    float: left;
+    background-image: url(../img/skill.JPG);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-left: 80px;
+    border-radius: 5px;
+}
+
+.skill .skillInfo {
+    width: 50%;
+    float: right;
+    margin-right: 50px;
+    text-align: left;
+    height: 250px;
+}
+
+.skill .skillInfo h3 {
+    font-size: 25px;
+    padding: 10px 0px;
+    color: #2b2b2b;
+}
+
+.skill .skillInfo p {
+    padding: 10px 0px;
+}
+
+.skill .skillInfo .skilltopic h4 {
+    width: 40%;
+    float: left;
+}
+
+.skill .skillInfo .skilltopic h5 {
+    width: 40%;
+    float: right;
+    text-align: right;
+    margin: 0px 20px
+}
+
+.skill .skillInfo .skilltopic .skilldiv {
+    width: 100%;
+    height: 15px;
+    background-color: #eae6e6;
+    margin-top: 8px;
+    border-radius: 10px;
+    border: 1px solid grey;
+    float: left;
+    position: relative
+}
+
+.skill .skillInfo .skilltopic .skilldiv::after {
+    content: "";
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 0%;
+    height: 15px;
+    background-color: #ff0047;
+    border-radius: 10px;
+    transition: .10s;
+}
+
+.skill .skillInfo .skilltopic .skilldiv:hover::after {
+    width: 90%;
+    transition: .5s;
+    cursor: pointer
+}
+
+.skill .skillInfo .skilltopic .skilldiv1 {
+    width: 100%;
+    height: 15px;
+    background-color: #eae6e6;
+    margin-top: 8px;
+    border-radius: 10px;
+    border: 1px solid grey;
+    float: left;
+    position: relative
+}
+
+.skill .skillInfo .skilltopic .skilldiv1::after {
+    content: "";
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 0%;
+    height: 15px;
+    background-color: #ff0047;
+    border-radius: 10px;
+    transition: .10s;
+}
+
+.skill .skillInfo .skilltopic .skilldiv1:hover::after {
+    width: 80%;
+    transition: .10s;
+    cursor: pointer
+}
+
+.skill .skillInfo .skilltopic .skilldiv2 {
+    width: 100%;
+    height: 15px;
+    background-color: #eae6e6;
+    margin-top: 8px;
+    border-radius: 10px;
+    border: 1px solid grey;
+    float: left;
+    position: relative;
+}
+
+.skill .skillInfo .skilltopic .skilldiv2::after {
+    content: "";
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 0%;
+    height: 15px;
+    background-color: #ff0047;
+    border-radius: 10px;
+    transition: .10s;
+}
+
+.skill .skillInfo .skilltopic .skilldiv2:hover::after {
+    width: 95%;
+    transition: .10s;
+    cursor: pointer
+}
+
+/*My Skill End*/
+
+/*Portfolio part Inner*/
+.portfolio {
+    width: 100%;
+    margin: auto;
+    float: left;
+    margin-top: 40px;
+}
+
+.portfolio .portfoliodiv {
+    width: 90%;
+    margin: auto;
+}
+
+.portfolio .portfoliodiv .portfolioImg {
+    width: 30%;
+    height: 220px;
+    background-color: #ff0047;
+    float: left;
+    border-radius: 5px;
+    margin: 15px 15px;
+    position: relative;
+}
+
+.portfolio .portfolioImg img {
+    width: 100%;
+    height: 100%;
+}
+
+.portfolio .portfolioImg::before {
+    content: "";
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(#000000ab, #000000ab);
+    display: none;
+    cursor: pointer;
+}
+
+.portfolio .portfolioImg:hover::before {
+    display: block;
+    transition: .10s;
+}
+
+.portfolio .portfolioImg::after {
+    content: "\f067";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    position: absolute;
+    top: 72px;
+    left: 155px;
+    font-size: 70px;
+    color: yellow;
+    display: none;
+    cursor: pointer;
+}
+
+.portfolio .portfolioImg:hover::after {
+    display: block;
+    transition: .10s;
+    transition-delay: .10s;
+}
+
+/*Portfolio part End*/
+/*Our Works Part Inner*/
+.ourWorkers {
+    float: left;
+    width: 100%;
+    text-align: center;
+    margin: 30px 0px;
+}
+
+.ourWorkers h3 {
+    padding: 20px 0px 10px 0px;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: 'Poppins', sans-serif;
+    color: #ff0047;
+}
+
+.ourWorkers p {
+    font-family: 'Poppins', sans-serif;
+    ;
+    font-weight: 300;
+    padding: 5px 0px;
+}
+
+.ourWorkers ul {
+    width: 50%;
+    margin: auto;
+    display: inline-block;
+    text-align: center;
+    margin-left: 40px;
+    margin-top: 30px;
+}
+
+.ourWorkers ul li {
+    float: left;
+}
+
+.ourWorkers ul li a {
+    padding: 2px;
+    display: block;
+    padding: 10px 15px;
+    margin-left: 10px;
+    border-radius: 50px;
+    color: black;
+}
+
+.ourWorkers .active a {
+    background-color: #ff0047;
+    border-radius: 50px;
+    text-align: center;
+    color: white;
+}
+
+.ourWorkers ul li:hover a {
+    background-color: #ff0047;
+    color: white;
+}
+
+.main_workDiv {
+    width: 85%;
+    margin: auto;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.main_workDiv .workdiv {
+    width: 30%;
+    height: 350px;
+    float: left;
+    background-color: #ff0047;
+    margin-left: 25px;
+    border: 1px solid #b3b3b3;
+}
+
+.main_workDiv .workdiv img {
+    width: 100%;
+    background-size: cover;
+    height: 100%;
+}
+
+/*Our Works Part End ;*/
+/*Our Client Part Inner*/
+.clientInner {
+    float: left;
+    width: 100%;
+    margin: 30px 0px;
+    text-align: center;
+
+}
+
+.clientInner i {
+    font-size: 100px;
+    padding: 10px 0px;
+    color: dimgrey
+}
+
+.clientInner p {
+    font-family: 'Poppins', sans-serif;
+    ;
+    font-weight: 300;
+    padding: 5px 0px;
+}
+
+.mainClinteImg {
+    width: 110px;
+    margin: auto
+}
+
+.clientInner .mainClinteImg .clinteIMg {
+    width: 100px;
+    height: 100px;
+    background-image: url(../img/ME.JPG);
+    background-size: cover;
+    border-radius: 100%;
+    margin: 20px 0px 0px 0px;
+    margin-left: 5px
+}
+
+.clientInner h3 {
+    font-size: 25px;
+}
+
+.clintepartall {
+    width: 120px;
+    margin: auto;
+}
+
+.clintepartall .clinteDott {
+    width: 10px;
+    height: 10px;
+    float: left;
+    margin: 8px;
+    border-radius: 100%;
+    border: 1px solid #ff0047;
+    cursor: pointer
+}
+
+.activedott {
+    background-color: #ff0047;
+    cursor: pointer
+}
+
+/*Our Client Part End*/
+/*Contact Part Inner*/
+.contact {
+    float: left;
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    margin: 30px 0px;
+}
+
+.contact h3 {
+    padding: 20px 0px 10px 0px;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: 'Poppins', sans-serif;
+    color: #ff0047;
+}
+
+.contact p {
+    font-family: 'Poppins', sans-serif;
+    ;
+    font-weight: 300;
+    padding: 5px 0px;
+}
+
+.contact .inpurtbox {
+    width: 50%;
+    margin: auto;
+}
+
+.contact .inpurtbox input {
+    width: 40%;
+    margin: 20px 20px;
+    padding: 10px;
+    border: 1px solid grey;
+    border-radius: 5px;
+}
+
+.contact .inpurtbox textarea {
+    width: 90%;
+    margin: auto;
+    height: 100px;
+    padding: 10px;
+    border: 1px solid grey;
+    border-radius: 5px;
+}
+
+.contact .inpurtbox button {
+    margin-top: 20px;
+    padding: 10px;
+    border-radius: 100px;
+    font-size: 20px;
+    font-weight: 400;
+    background-color: #ff0047;
+    border: none;
+    color: white;
+}
+
+.contact .inpurtbox button:hover {
+    background-color: white;
+    border: 1px solid #ff0047;
+    color: #ff0047;
+    transition: .4s;
+    cursor: pointer;
+}
+
+/*Contact Part End*/
+/*Contant Number Two Inner*/
+.tow_No_Contact_inner {
+    width: 80%;
+    margin: auto;
+    clear: both;
+}
+
+.tow_No_Contact_inner .contactDiv {
+    width: 30%;
+    float: left;
+    margin: 20px 17px;
+    text-align: center
+}
+
+.tow_No_Contact_inner .contactDiv i {
+    color: #ff0047;
+    font-size: 70px;
+    margin: 20px 0px;
+}
+
+.tow_No_Contact_inner .contactDiv h3 {
+    text-transform: uppercase;
+    font-weight: bold;
+    padding: 10px 0px;
+}
+
+.tow_No_Contact_inner .contactDiv p {
+    font-size: 15px;
+    padding: 3px 0px;
+}
+
+.tow_No_Contact_inner .contactDiv .color {
+    color: #ff0047;
+}
+
+/*Contant Number Two End*/
+/*Footer Part Inner*/
+footer {
+    clear: both;
+    width: 100%;
+    background-color: #1f1f1f;
+    padding: 50px 0px;
+    margin-top: 0px;
+    text-align: center;
+    color: white;
+}
+
+.contactIcon a i {
+    margin-left: 20px;
+    margin-bottom: 20px;
+    font-size: 30px
+}
+
+.contactIcon a {
+    color: white;
+}
+footer p{
+    margin-top: 20px;
+}
+footer p span a {
+    color: #ff0047;
+    font-weight: bold
+}
+
+footer .team a {
+    color: white;
+    margin-top: 20px;
+    display: inline-block
+}
+
+/*Footer Part End*/
+
+.arrow a {
+    width: 50px;
+    height: 50px;
+    background-color: #ff0047;
+    ;
+    border-radius: 100%;
+    position: sticky;
+    bottom: 30px;
+    left: 20px;
+    position: fixed;
+    text-align: center;
+    line-height: 50px;
+    font-size: 45px;
+    color: white;
+    display: block;
+    cursor: pointer;
+}
